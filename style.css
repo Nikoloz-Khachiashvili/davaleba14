@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:ital,wght@0,300;0,600;1,400&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px 24px;
+    align-items: center;
+    background-image: url(./assets/cyan-title.svg) , url(./assets/orange-title.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 0 , 100% 0 ;
+    overflow-x: hidden;
+}
+
+.header-title{
+    width: 146.093px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.info-music{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.info-music-text{
+    color: #191826;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.455px;
+    font-family: 'IBM Plex Sans';
+    margin-top: 64px;
+}
+
+.info-music-description{
+    color: #191826;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    font-family: IBM Plex Sans;
+}
+
+.mobile-photo-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+        border-radius: 12px;
+        background: #191826;
+        background-image: url(./assets/phone-background.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        margin-top: 166px;
+        width: 375px;
+        margin-left: -24px;
+}
+
+.mobile-photo{
+    margin-bottom: 345px;
+}
+
+main{
+    padding-left: 36px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 375px;
+    height: 546px;
+    margin-left: -24px;
+    border-radius: 12px;
+    background: #FA7453;
+    margin-top: -220px;
+}
+
+.premium-eq-title{
+    color: #FCFAF9;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    font-family: IBM Plex Sans;
+}
+
+.premium-eq-description{
+    color: #FCFAF9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    font-family: IBM Plex Sans;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    column-gap: 16px;
+    margin-top: 24px;
+}
+
+.price-value{
+    color: #FCFAF9;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 80% */
+    font-family: IBM Plex Sans;
+}
+
+.price-per-month{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.2px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-top: 24px;
+    
+}
+
+.ios-button{
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: #191826;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ios-button-text{
+    color: #FCFAF9;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+
+.android-button{
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background: #FCFAF9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.android-button-text{
+    color: #191826;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+
+footer{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 20px;
+}
+
+.footer-text{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+span{
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.footer-logo{
+    margin-top: 32px;
+}
+
